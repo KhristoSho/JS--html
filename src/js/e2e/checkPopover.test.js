@@ -55,7 +55,6 @@ describe("check work popover", () => {
   });
 
   test("Should create text if isValid", async () => {
-
     const button = await page.$(".toggle-popover");
 
     await button.click();

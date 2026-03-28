@@ -11,7 +11,7 @@ export class Popover {
     document.addEventListener("DOMContentLoaded", () => {
       const btnToggle = document.querySelector(".toggle-popover");
 
-      btnToggle.addEventListener("click", (e) => {
+      btnToggle.addEventListener("click", () => {
         const actualPopover = this.actualPopovers.find(
           (popover) => popover[0] === btnToggle,
         );
